@@ -1,5 +1,7 @@
 <h1 align="center">NLW#04 - Moveit - aula 01</h1> 
 
+<img src=".github/Wallpaper.png">
+
 
 ### :mag: Sobre o projeto 
 A aplicação consiste na técnica de pomodoro, onde existe um contador de tempo de 25 minutos que deve ser utilizado para manter foco em sua tarefa, seja estudar, trabalhar e um intervalo de 5 minutos para você fazer alguma atividade. Conforme fizer as tarefas você ganha pontos de experiência e pode ir subindo de nível. Essas atividades são para exercitar-se já que ficar muito tempo sentado em frente a um computador pode ocasionar diversos problemas futuros. 
