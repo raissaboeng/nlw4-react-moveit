@@ -1,4 +1,4 @@
-<h1 align="center">NLW#04 - Moveit - aula 01</h1> 
+<h1 align="center"> <span style="color: #3c1361">NLW#04</span> - Moveit - aula 01</h1> 
 
 <img src=".github/Wallpaper.png">
 
