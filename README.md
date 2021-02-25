@@ -14,7 +14,7 @@ Esta aplicação juntou o mundo dos games com a parte de ganhar xp e subir de n�
 * create-react-app: Uma forma simplificada de criar um projeto em react onde é montada a estrutura com babel, webpack, node de forma automática.
 * Componentes: código react é feito basicamente com componentes, ou seja, se tenho um botão que se repete em minha aplicação ele pode ser um componente, um cabeçalho pode ser um componente. Seriam pequenos trechos de códigos que se retirados do contexto, o restate da aplicação ainda faz sentido e podem ser usados diversas vezes em diferentes locais ou na mesma página.
 * Propriedades: Forma de passar informações para cada componente. Para recuperar as informações, todos os componentes recebem props e nelas contém como se fosse um objeto para acessar essas propriedades(código abaixo). Também existe as propriedades do tipo children, que são passadas dentro do componente(código abaixo).
-```
+```js
 <Button color="red">
     Botão 1
 </Button>
@@ -34,7 +34,7 @@ export function Button(props:ButtonProps){
 ```
 * Estado: Armazena informação dentro do componente, ou seja, o estado dele que vai mudar ao longo do tempo. Por exemplo no click de um botão aumentar em 1 o seu valor. Este valor deve ser armazenado em um estado. O método useState retorna uma variável e uma função que cria uma novo estado a partir do estado anterior sem modificar, respeitando a imutabilidade.
 
-```
+```js
 const [counter, setCounter] = useState(1);
 
 ```
